@@ -36,7 +36,7 @@ const Intro3 = ({flag,setflag}) => {
   </div>
 
   <div className='text-center md:text-left md:w-full md:max-w-md lg:max-w-none'>
-    <p className='text-4xl md:text-7xl'>You're on your way!</p>
+    <p className='text-4xl md:text-6xl'>You're on your way!</p>
     <img src={star} alt="" className='w-64 h-auto md:w-90 md:h-auto mt-4 mx-auto md:mr-[360px]' /> 
     <p className='text-lg md:text-2xl font-semibold max-w-md md:max-w-none mt-4'>
       "Through its engaging and well-structured courses, Brilliant has taught me mathematical concepts that I previously struggled to understand.
@@ -46,7 +46,7 @@ const Intro3 = ({flag,setflag}) => {
   </div> 
 </div>
 
-<div className="flex justify-center mt-[98px] ml-[50px]">
+<div className="flex justify-center mt-[98px] ml-[50px] h-[100px]">
   <button className='border border-sky-500 rounded w-40 text-white bg-black h-10' onClick={handleClick}>Continue</button>
 </div> 
 </div>

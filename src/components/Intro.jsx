@@ -61,8 +61,8 @@ const Intro = ({flag,setflag}) => {
       </div>
     ))}
   </div>
-  <div className="flex items-center justify-center relative">
-    <button className={`border rounded w-40 text-white ${!check ? 'bg-stone-200' : 'bg-black'} h-10 text-center`} onClick={handleClick} disabled={!check} style={{ marginTop: "10px" }}>
+  <div className="flex items-center justify-center relative h-[100px]">
+    <button className={`border rounded w-40 text-white ${!check ? 'bg-stone-200' : 'bg-black'} h-10 text-center`} onClick={handleClick} disabled={!check} style={{ marginTop: "2px" }}>
       Continue
     </button>
   </div>

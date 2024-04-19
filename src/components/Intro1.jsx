@@ -29,7 +29,7 @@ const Intro1 = ({flag,setflag}) => {
 
 
 
-<div className='flex flex-col mx-4 justify-center items-center md:flex-row md:mr-[80px] gap-10'>
+<div className='flex flex-col mx-4 justify-center items-center md:flex-row md:mr-[80px] gap-10 mt-[80px]'>
   <div className="mx-auto mt-10 md:mt-40 md:ml-520px">
     <img src={img2} alt="" className="w-full md:max-w-screen-md md:max-h-[480px]" style={{ width: "100%" }} />  
   </div>
@@ -43,7 +43,7 @@ const Intro1 = ({flag,setflag}) => {
   </div>
 </div>
 
-   <div className=' flex align-center justify-center mt-[20px] ml-[118px]'>
+   <div className=' flex align-center justify-center mt-[20px] ml-[118px] h-[100px]'>
   <button className='border border-sky-500 rounded w-40 text-white bg-black ml-[-250px]  h-10 mb-[140px]' onClick={handleClick}>Continue</button>
   </div>
   </div>

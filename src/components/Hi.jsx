@@ -63,8 +63,8 @@ const Hi = ({flag,setflag}) => {
       </div>
     ))}
   </div>
-  <div className="text-center mb-10">
-    <button className={`border rounded w-40 text-white ${!check ? 'bg-stone-200' : 'bg-black'} h-10 text-center`} onClick={handleClick} disabled={!check}>
+  <div className="text-center mt-[20px] h-[100px] ">
+    <button className={`border rounded w-40 text-white ${!check ? 'bg-stone-200' : 'bg-black'} h-10 text-center `} onClick={handleClick} disabled={!check}>
       Continue
     </button>
   </div>

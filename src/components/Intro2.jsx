@@ -61,7 +61,7 @@ const Intro2 = ({flag,setflag}) => {
   ))}
 </div>
 
-        <div className="flex items-center justify-center relative mb-[-10px] ">
+        <div className="flex items-center justify-center relative mb-[-10px] h-[100px]">
   <button className={`border  rounded w-40 text-white ${!check ? 'bg-stone-200' : 'bg-black'} h-10 bottom-10 text-center mb-38`} onClick={handleClick}
     disabled={!check} // Disable the button if check is false 
     style={{ marginTop: "30px" }} // Adjust the position from the bottom
