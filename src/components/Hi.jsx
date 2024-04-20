@@ -43,7 +43,7 @@ const Hi = ({flag,setflag}) => {
       <p className='mt-5 text-slate-500 ml-[10px]'>This will help us personalize your experience.</p>
     </div>
   </div>  
-  <div className='grid grid-cols-1 gap-5 mb-10 font-medium mx-auto max-w-screen-md sm:w-full mt-[50px]  '>
+  <div className='grid grid-cols-1 gap-5 mb-10 font-medium mx-auto max-w-screen-md sm:w-full mt-[50px] px-[10px] '>
     {list.map(item => (
       <div
         key={item.id}

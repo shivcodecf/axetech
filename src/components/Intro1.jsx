@@ -22,6 +22,7 @@ const Intro1 = ({flag,setflag}) => {
   return (
     <div> 
    <div className='relative flex flex-col md:flex-row md:items-center head'>
+    
   <LiaLessThanSolid   className=' absolute  mt-[40px] ml-[180px]  cursor-pointer'   id="res2" onClick={backHandler}/>
   <Header handleClick={handleClick} progress={progress} setprogress={setprogress} /> 
 </div>
